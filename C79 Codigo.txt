@@ -35,7 +35,7 @@ let meteor_arr = Object.keys(this.state.meteors).map(meteor_date => {
             return this.state.meteors[meteor_date]
             })
             let meteors = [].concat.apply([], meteor_arr);
-          return(
+         
 ------------------------------------------------------------------------------
                         meteors.forEach(function (element) {
                 let diameter = (element.estimated_diameter.kilometers.estimated_diameter_min + element.estimated_diameter.kilometers.estimated_diameter_max) / 2
